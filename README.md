@@ -1,4 +1,4 @@
-# 🛒 Amazon Fine Food Reviews — NLP & Text Analytics
+# 🥯Amazon Fine Food Reviews — NLP & Text Analytics
 
 A comprehensive **Natural Language Processing (NLP)** analysis of Amazon fine food reviews, comparing **Positive (4–5 ★)** vs **Negative (1–2 ★)** sentiment classes. The analysis covers the full text analytics pipeline — from preprocessing to topic modelling and word embeddings — and is presented as a fully reproducible R Markdown report.
 
