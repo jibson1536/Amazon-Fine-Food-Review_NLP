@@ -1,6 +1,6 @@
-# 🛒 Amazon Product Reviews — NLP & Text Analytics
+# 🛒 Amazon Fine Food Reviews — NLP & Text Analytics
 
-A comprehensive **Natural Language Processing (NLP)** analysis of Amazon product reviews, comparing **Positive (4–5 ★)** vs **Negative (1–2 ★)** sentiment classes. The analysis covers the full text analytics pipeline — from preprocessing to topic modelling and word embeddings — and is presented as a fully reproducible R Markdown report.
+A comprehensive **Natural Language Processing (NLP)** analysis of Amazon fine food reviews, comparing **Positive (4–5 ★)** vs **Negative (1–2 ★)** sentiment classes. The analysis covers the full text analytics pipeline — from preprocessing to topic modelling and word embeddings — and is presented as a fully reproducible R Markdown report.
 
 ---
 
@@ -8,10 +8,10 @@ A comprehensive **Natural Language Processing (NLP)** analysis of Amazon product
 
 | Attribute | Value |
 |---|---|
-| Dataset | Amazon Product Reviews |
-| Total reviews analysed | 36,710 |
-| Positive reviews (4–5 ★) | 27,811 (75.8%) |
-| Negative reviews (1–2 ★) | 8,899 (24.2%) |
+| Dataset | Amazon Fine food  Reviews |
+| Total reviews analysed | 20,000|
+| Positive reviews (4–5 ★) | 10,000 |
+| Negative reviews (1–2 ★) |10,000 (24.2%) |
 | Language | R (R Markdown) |
 | Output | Interactive HTML Report |
 
@@ -22,8 +22,10 @@ A comprehensive **Natural Language Processing (NLP)** analysis of Amazon product
 ```
 ├── amazon_reviews_analysis.Rmd   # Main analysis — knit this to generate the report
 ├── reviews_clean.csv             # Pre-filtered dataset (Positive & Negative only)
-├── custom.css                    # Custom HTML report styling
+├── custom.css                   # Custom HTML report styling
+|-- data_filter.py                # Sampled 20k reviews from the large dataset and classified to positive and negative. and excluded neutral
 ├── run_analysis.R                # Setup script — installs packages & knits the report
+|-- amazon_review_NLP.Rproj
 └── README.md                     # You are here
 ```
 
