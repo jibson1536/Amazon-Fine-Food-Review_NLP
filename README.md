@@ -100,6 +100,31 @@ knitr, kableExtra, viridis, ggwordcloud, plotly, DT
 
 ---
 
+## Conclusion
+
+This analysis of 20,000 Amazon Fine Food Reviews reveals a clear and 
+meaningful separation between positive and negative customer experiences, 
+confirmed across multiple analytical methods.
+
+Positive reviews consistently cluster around themes of taste, freshness, 
+quality, and repeat purchase intent — with a mean normalised AFINN 
+sentiment score of +0.4. Negative reviews, in contrast, converge on 
+four distinct pain points: poor taste, misleading product descriptions, 
+packaging failures, and return/refund frustrations — with a mean score 
+of −0.3, representing a statistically meaningful gap of 0.7 points.
+
+Word2Vec embeddings confirm these findings at a semantic level, showing 
+that words like "delicious" and "fresh" cluster together in positive 
+reviews, while "broken", "awful", and "disappointed" form a tight 
+negative semantic neighbourhood.
+
+From a business perspective, the most actionable insight is that negative 
+reviews are not random — they fall into predictable, addressable themes. 
+Food brands that invest in accurate product labelling, improved packaging, 
+and consistent quality control stand to significantly reduce negative 
+feedback and increase customer retention.
+
+---
 ## 📚 References
 
 1. Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). *Latent Dirichlet Allocation*. JMLR, 3, 993–1022.
