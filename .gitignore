@@ -2,7 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-.AmazonFineFoodReviews.csv
-.reviews_20k.csv
+AmazonFineFoodReviews.csv
+reviews_20k.csv
 .DS_Store
-.venv/
+venv/
