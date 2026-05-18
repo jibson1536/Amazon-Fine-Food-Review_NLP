@@ -133,8 +133,11 @@ feedback and increase customer retention.
 4. Nielsen, F. Å. (2011). *A new ANEW: Evaluation of a word list for sentiment analysis in microblogs*. arXiv:1103.2903.
 5. Csardi, G., & Nepusz, T. (2006). *The igraph software package*. InterJournal Complex Systems, 1695.
 
+
+## 📊 Live Report
+👉 [Click here to view the full interactive report](https://jibson1536.github.io/Amazon-Fine-Food-Review_NLP/Amazon_Reviews_NLP_Report.html)
 ---
 
 ## 👤 Author --- MUJEEB OLALEKAN ODEKUNLE
 
-Made with R & ❤️ · Feel free to fork, adapt, and build on this analysis.
+Made with R &  · Feel free to fork, adapt, and build on this analysis.
